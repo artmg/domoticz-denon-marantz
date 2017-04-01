@@ -1,14 +1,15 @@
 #
-#       Denon AVR 4306 Plugin
+#       Denon & Marantz AVR plugin
 #
-#       Author:     Dnpwwo, 2016 - 2017
+#       Author:     Dnpwwo, 2016 - 2017, Artemgy 2017
 #
-#   Mode3 ("Sources") needs to have '|' delimited names of sources that the Denon knows about.  The Selector can be changed afterwards to any  text and the plugin will still map to the actual Denon name.
+#   Mode3 ("Sources") needs to have '|' delimited names of sources that the Denon knows about.  
+#   The Selector can be changed afterwards to any text and the plugin will still map to the actual Denon name.
 #
 """
-<plugin key="Denon4306" version="2.5.4" name="Denon AVR 4306 Amplifier" author="dnpwwo" wikilink="" externallink="http://www.denon.co.uk/uk">
+<plugin key="DenonMarantz" version="2.5.5" name="Denon / Marantz AVR Amplifier" author="dnpwwo/artemgy" wikilink="" externallink="http://www.denon.co.uk/uk">
     <description>
-Denon (& Marantz) AVR Plugin.<br/><br/>
+Denon & Marantz AVR plugin.<br/><br/>
 &quot;Sources&quot; need to have '|' delimited names of sources that the Denon knows about from the technical manual.<br/>
 The Sources Selector(s) can be changed after initial creation to any text and the plugin will still map to the actual Denon name.<br/><br/>
 Devices will be created in the Devices Tab only and will need to be manually made active.
